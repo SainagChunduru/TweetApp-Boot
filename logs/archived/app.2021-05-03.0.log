@@ -1,0 +1,24 @@
+2021-05-03 17:53:49,734 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 864 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-03 17:53:49,744 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-03 17:53:55,215 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 6.026 seconds (JVM running for 7.412)
+2021-05-03 17:57:29,436 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-6] #### -> Producing message -> hiii all
+2021-05-03 17:58:29,477 ERROR org.springframework.kafka.support.LoggingProducerListener [http-nio-8090-exec-6] Exception thrown when sending a message with key='null' and payload='hiii all' to topic tweetApp:
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-05-03 17:58:29,489 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8090-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-05-03 18:22:22,940 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 6352 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-03 18:22:22,942 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-03 18:22:27,407 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+

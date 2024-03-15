@@ -1,0 +1,13 @@
+2021-05-04 22:57:22,108 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 10852 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-04 22:57:22,143 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-04 22:57:27,307 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.74 seconds (JVM running for 7.078)
+2021-05-04 22:59:08,247 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-2] #### -> Producing message -> drfrf
+2021-05-04 23:00:08,302 ERROR org.springframework.kafka.support.LoggingProducerListener [http-nio-8090-exec-2] Exception thrown when sending a message with key='null' and payload='drfrf' to topic tweetApp:
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-05-04 23:00:08,327 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8090-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-05-04 23:00:36,562 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-7] #### -> Producing message -> 
+2021-05-04 23:01:36,565 ERROR org.springframework.kafka.support.LoggingProducerListener [http-nio-8090-exec-7] Exception thrown when sending a message with key='null' and payload='' to topic tweetApp:
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-05-04 23:01:36,568 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8090-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.

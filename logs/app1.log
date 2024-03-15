@@ -1,0 +1,105 @@
+2021-05-29 01:55:15,561 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8904 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 01:55:15,569 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 01:55:19,735 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.731 seconds (JVM running for 6.156)
+2021-05-29 01:55:31,127 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-1] AuthenticationController classin getUser method() call
+2021-05-29 01:55:31,176 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-1] AuthenticationController classin generateJwt method() call
+2021-05-29 01:55:31,270 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-1] AuthenticationController classin authenicate method() call
+2021-05-29 01:59:41,324 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8476 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 01:59:41,326 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 01:59:45,117 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2021-05-29 01:59:49,286 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-5] AuthenticationController classin getUser method() call
+2021-05-29 01:59:49,287 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-5] AuthenticationController classin generateJwt method() call
+2021-05-29 01:59:49,500 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-5] AuthenticationController classin authenicate method() call
+2021-05-29 02:08:15,001 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 3940 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 02:08:15,004 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 02:08:19,343 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.861 seconds (JVM running for 6.143)
+2021-05-29 02:08:22,503 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-2] AuthenticationController classin getUser method() call
+2021-05-29 02:08:22,547 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-2] AuthenticationController classin generateJwt method() call
+2021-05-29 02:08:22,642 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-2] AuthenticationController classin authenicate method() call
+2021-05-29 02:12:36,656 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8848 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 02:12:36,658 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 02:12:41,132 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.082 seconds (JVM running for 6.399)
+2021-05-29 02:12:44,804 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-1] AuthenticationController classin getUser method() call
+2021-05-29 02:12:44,838 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-1] AuthenticationController classin generateJwt method() call
+2021-05-29 02:12:44,928 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-1] AuthenticationController classin authenicate method() call
+2021-05-29 02:13:54,996 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 10684 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 02:13:54,999 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 02:13:58,771 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.273 seconds (JVM running for 5.704)
+2021-05-29 03:52:42,800 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 5284 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 03:52:42,802 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 03:52:46,360 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2021-05-29 04:26:06,678 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7904 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 04:26:06,693 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 04:26:10,743 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2021-05-29 04:27:22,306 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] Hiii
+2021-05-29 04:27:22,308 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] []
+2021-05-29 04:27:22,309 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] Hiii
+2021-05-29 04:27:22,309 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] [{"userId":"mini","replied":"mini tweey"}]
+2021-05-29 04:27:22,309 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] {"userId":"mini","replied":"mini tweey"}
+2021-05-29 04:27:22,340 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-4] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-29 04:29:56,675 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] Hiii
+2021-05-29 04:29:56,675 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] []
+2021-05-29 04:29:56,675 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] Hiii
+2021-05-29 04:29:56,676 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] [{"userId":"mini","replied":"mini tweey"}]
+2021-05-29 04:29:56,676 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] {"userId":"mini","replied":"mini tweey"}
+2021-05-29 04:29:56,679 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-6] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-29 04:44:45,166 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] Hiii
+2021-05-29 04:44:45,166 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] []
+2021-05-29 04:44:45,166 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] Hiii
+2021-05-29 04:44:45,166 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] [{"userId":"mini","replied":"mini tweey"}]
+2021-05-29 04:44:45,166 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] {"userId":"mini","replied":"mini tweey"}
+2021-05-29 04:44:45,171 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-10] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-29 04:45:03,062 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8032 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 04:45:03,067 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 04:45:06,972 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.419 seconds (JVM running for 5.611)
+2021-05-29 04:45:09,531 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] mini
+2021-05-29 04:45:09,573 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Hiii
+2021-05-29 04:45:09,573 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] []
+2021-05-29 04:45:09,574 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Hiii
+2021-05-29 04:45:09,574 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] [{"userId":"mini","replied":"mini tweey"}]
+2021-05-29 04:45:09,575 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] {"userId":"mini","replied":"mini tweey"}
+2021-05-29 04:45:09,587 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] com.amazonaws.services.dynamodbv2.datamodeling.PaginatedScanList@36e1278
+2021-05-29 04:45:09,592 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callSUCCESS
+2021-05-29 04:46:43,621 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] Hiii
+2021-05-29 04:46:43,621 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] [{"userId":"mini","replied":"mini tweey"}]
+2021-05-29 04:46:43,621 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] {"userId":"mini","replied":"mini tweey"}
+2021-05-29 04:46:43,669 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-5] Tweet Controllerin replyToTweet() callSUCCESS

@@ -1,0 +1,51 @@
+
+spring:
+  profiles:
+    active: nonprod
+---
+spring:
+  profiles: dev
+  data.mongodb:
+    host: localhost
+    port: 27017
+    database: tweetappdb
+---
+spring:
+  profiles: nonprod
+  data.mongodb:
+    host: localhost
+    port: 27017
+    database: tweetappdb
+---
+spring:
+  profiles: prod
+  data.mongodb:
+    host: localhost
+    port: 27017
+    database: tweetuser
+---
+server:
+  port : 8090
+---
+spring:
+   kafka:
+     consumer:
+        bootstrap-servers: localhost:9092
+        group-id: group_id
+        auto-offset-reset: earliest
+        key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+        value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+     producer:
+        bootstrap-servers: localhost:9092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.apache.kafka.common.serialization.StringSerializer
+---
+logging:
+  level:
+    org.springframework: ERROR
+    com.tweetapp: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: app1.log
+ 

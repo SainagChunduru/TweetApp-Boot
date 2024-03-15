@@ -1,0 +1,487 @@
+2021-05-28 11:22:47,006 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 5784 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 11:22:47,010 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 11:22:51,461 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tweetsRepo in com.tweetapp.service.impl.TweetsServiceImpl required a bean of type 'com.tweetapp.repo.TweetRepo' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tweetapp.repo.TweetRepo' in your configuration.
+
+2021-05-28 11:41:22,353 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 11292 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 11:41:22,355 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 11:41:26,549 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tweetsRepo in com.tweetapp.service.impl.TweetsServiceImpl required a bean of type 'com.tweetapp.repo.TweetRepo' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tweetapp.repo.TweetRepo' in your configuration.
+
+2021-05-28 12:00:15,632 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8560 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 12:00:15,634 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 12:00:19,141 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tweetsRepo in com.tweetapp.service.impl.TweetsServiceImpl required a bean of type 'com.tweetapp.repo.TweetRepo' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tweetapp.repo.TweetRepo' in your configuration.
+
+2021-05-28 19:47:26,191 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 1648 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 19:47:26,197 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 19:47:27,649 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tweetsServiceImpl': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.service.impl.TweetsServiceImpl] from ClassLoader [sun.misc.Launcher$AppClassLoader@764c12b6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:12)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.service.impl.TweetsServiceImpl] from ClassLoader [sun.misc.Launcher$AppClassLoader@764c12b6]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: TweetResponse
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.getDeclaredMethods(Unknown Source)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: TweetResponse
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 25 common frames omitted
+2021-05-28 19:54:11,649 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 6820 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 19:54:11,670 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 19:54:12,243 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tweetapp.TweetAppApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'swaggerConfig' for bean class [com.tweetapp.configuration.SwaggerConfig] conflicts with existing, non-compatible bean definition of same name and class [com.tweetapp.SwaggerConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:336)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:252)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:285)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:99)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:569)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:12)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'swaggerConfig' for bean class [com.tweetapp.configuration.SwaggerConfig] conflicts with existing, non-compatible bean definition of same name and class [com.tweetapp.SwaggerConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 14 common frames omitted
+2021-05-28 19:55:37,185 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 2336 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 19:55:37,187 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 19:55:38,330 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'amazonDynamoDB', defined in class path resource [com/tweetapp/configuration/BeanConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/tweetapp/DynamoDBConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-05-28 19:57:01,805 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8228 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 19:57:01,807 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 19:57:03,423 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'methodValidationPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:232)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:767)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1016)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:896)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:637)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1546)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 55 common frames omitted
+2021-05-28 19:59:19,366 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7728 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 19:59:19,382 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 19:59:21,015 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'methodValidationPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:232)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:767)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1016)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:896)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:637)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1546)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 55 common frames omitted
+2021-05-28 20:01:58,901 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7448 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:01:58,904 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:02:02,843 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.467 seconds (JVM running for 5.54)
+2021-05-28 20:03:41,203 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-4] Users Controllerin register() callUser Already Exists
+2021-05-28 20:04:14,766 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-5] Users Controllerin register() callUser Already Exists
+2021-05-28 20:11:46,987 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 9568 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:11:46,989 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:11:51,340 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.838 seconds (JVM running for 6.062)
+2021-05-28 20:11:59,716 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-1] Users Controllerin register() callcom.tweetapp.dto.UsersDto@281d7123
+2021-05-28 20:12:00,332 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-1] Users Controllerin register() callUser Already Exists
+2021-05-28 20:14:54,928 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 10128 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:14:54,933 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:14:59,031 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.725 seconds (JVM running for 6.058)
+2021-05-28 20:15:03,755 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-2] Users Controllerin register() callminiwmin1wi
+2021-05-28 20:15:04,496 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-2] Users Controllerin register() callUser Already Exists
+2021-05-28 20:22:18,443 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 848 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:22:18,473 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:22:22,541 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.65 seconds (JVM running for 5.682)
+2021-05-28 20:22:27,663 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-1] Users Controllerin register() callminiwmin1wi
+2021-05-28 20:22:28,262 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-1] Users Entityin register() callOptional.empty
+2021-05-28 20:22:28,422 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-1] Users Controllerin register() callSUCCESS
+2021-05-28 20:31:29,465 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-4] Users Controllerin register() callminiwmini
+2021-05-28 20:31:29,644 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-4] Users Entityin register() callOptional.empty
+2021-05-28 20:31:29,812 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-4] Users Controllerin register() callSUCCESS
+2021-05-28 20:31:55,917 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-6] AuthenticationController classin getUser method() call
+2021-05-28 20:31:55,956 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-6] AuthenticationController classin generateJwt method() call
+2021-05-28 20:31:56,026 INFO com.tweetapp.controller.AuthenticationController [http-nio-8090-exec-6] AuthenticationController classin authenicate method() call
+2021-05-28 20:32:10,353 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-7] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 20:33:41,467 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-10] Users Controllerin forgetPassword() callSUCCESS
+2021-05-28 20:34:46,310 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-3] Users Controllerin forgetPassword() callSUCCESS
+2021-05-28 20:37:46,671 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 6640 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:37:46,675 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:37:50,466 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.334 seconds (JVM running for 5.369)
+2021-05-28 20:38:15,559 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-3] Users Controllerin forgetPassword() callSUCCESS
+2021-05-28 20:38:25,798 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] Get all tweets[Ljava.lang.StackTraceElement;@46c88969
+2021-05-28 20:38:25,798 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-4] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 20:39:09,372 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-5] Users Controllerin register() callanu1anu
+2021-05-28 20:39:09,395 INFO com.tweetapp.service.impl.UsersServiceImpl [http-nio-8090-exec-5] Users Entityin register() callOptional.empty
+2021-05-28 20:39:09,537 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-5] Users Controllerin register() callSUCCESS
+2021-05-28 20:42:00,094 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 2748 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:42:00,097 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:42:03,974 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.369 seconds (JVM running for 5.417)
+2021-05-28 20:42:16,806 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Get all tweetsTweetsEntity[dateOfPost]; could not unconvert attribute
+2021-05-28 20:42:16,806 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 20:46:35,741 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8532 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 20:46:35,744 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 20:46:39,621 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.386 seconds (JVM running for 5.494)
+2021-05-28 20:46:42,122 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Get all tweetsCannot format given Object as a Date
+2021-05-28 20:46:42,122 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 20:49:20,815 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 20:49:20,815 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-6] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 20:51:51,745 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-7] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 20:51:51,746 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-7] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:30:38,482 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 5868 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:30:38,485 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:30:42,224 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.273 seconds (JVM running for 5.474)
+2021-05-28 21:31:26,366 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-8] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:31:26,367 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-8] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:32:51,136 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7136 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:32:51,153 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:32:55,003 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.371 seconds (JVM running for 5.353)
+2021-05-28 21:33:08,240 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:33:08,240 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:34:08,998 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 10028 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:34:09,002 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:34:13,739 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.268 seconds (JVM running for 6.346)
+2021-05-28 21:34:14,806 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:34:14,806 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:35:03,603 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7048 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:35:03,606 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:35:07,498 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2021-05-28 21:35:12,535 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:35:12,536 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:35:39,402 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 2968 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:35:39,419 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:35:43,487 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.592 seconds (JVM running for 5.55)
+2021-05-28 21:35:59,686 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:35:59,686 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:43:16,403 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 6292 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:43:16,484 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:43:21,388 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.605 seconds (JVM running for 6.715)
+2021-05-28 21:43:22,381 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:43:22,381 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:54:03,744 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 4044 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:54:03,761 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:54:07,535 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.292 seconds (JVM running for 5.358)
+2021-05-28 21:54:11,971 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:54:11,971 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 21:59:49,050 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 2500 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 21:59:49,054 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 21:59:53,491 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.032 seconds (JVM running for 6.172)
+2021-05-28 21:59:55,993 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 21:59:55,994 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:06:44,643 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 5868 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 22:06:44,658 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 22:06:49,063 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.962 seconds (JVM running for 6.086)
+2021-05-28 22:06:52,007 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 22:06:52,008 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:25:15,182 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7060 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 22:25:15,189 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 22:25:19,167 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2021-05-28 22:25:23,916 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 22:25:23,916 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-4] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:46:32,944 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8444 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 22:46:32,947 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 22:46:36,889 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.532 seconds (JVM running for 5.58)
+2021-05-28 22:46:40,555 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 8620 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 22:46:40,557 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 22:46:44,558 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.511 seconds (JVM running for 5.457)
+2021-05-28 22:46:47,378 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Hiii
+2021-05-28 22:46:47,385 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 22:46:47,385 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:49:33,646 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 4664 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 22:49:33,667 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 22:49:37,722 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.613 seconds (JVM running for 5.689)
+2021-05-28 22:49:40,266 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Hiii
+2021-05-28 22:49:40,266 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] []
+2021-05-28 22:49:40,270 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-2] Get all tweetsTweetsEntity[reply]; could not unconvert attribute
+2021-05-28 22:49:40,270 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-2] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:52:03,757 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] Get all tweetsCannot format given Object as a Date
+2021-05-28 22:52:03,758 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-4] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:53:00,194 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-6] Get all tweetsCannot format given Object as a Date
+2021-05-28 22:53:00,195 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-6] Tweet Controllerin get All Tweets() callFAILURE
+2021-05-28 22:54:06,180 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7332 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 22:54:06,202 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 22:54:10,105 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.431 seconds (JVM running for 5.572)
+2021-05-28 22:54:13,539 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callSUCCESS
+2021-05-28 22:59:13,520 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] Hiii
+2021-05-28 22:59:13,521 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] []
+2021-05-28 22:59:13,522 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-5] Tweet Controllerin get All Tweets() callSUCCESS
+2021-05-28 23:02:10,357 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-7] Tweet Controllerin addTweet() callSUCCESS
+2021-05-28 23:20:16,546 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] Hiii
+2021-05-28 23:20:16,546 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-10] []
+2021-05-28 23:20:16,612 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-10] Tweet Controllerin replyToTweet() callSUCCESS
+2021-05-28 23:20:46,721 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Hiii
+2021-05-28 23:20:46,721 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] []
+2021-05-28 23:20:46,722 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] Hiii
+2021-05-28 23:20:46,722 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] [mini x mini tweey x null]
+2021-05-28 23:20:46,722 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] mini x mini tweey x null
+2021-05-28 23:20:46,722 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-1] mini x mini tweey x null
+2021-05-28 23:20:46,723 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-1] Tweet Controllerin get All Tweets() callSUCCESS
+2021-05-28 23:43:10,810 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 6412 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 23:43:10,814 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 23:43:15,220 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.958 seconds (JVM running for 6.062)
+2021-05-28 23:43:41,051 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-3] Hiii
+2021-05-28 23:43:41,051 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-3] []
+2021-05-28 23:43:41,052 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-3] Hiii
+2021-05-28 23:43:41,052 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-3] []
+2021-05-28 23:43:41,055 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-3] Tweet Controllerin get All Tweets() callSUCCESS
+2021-05-28 23:44:00,793 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] Hiii
+2021-05-28 23:44:00,794 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-4] []
+2021-05-28 23:44:00,864 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-4] Tweet Controllerin replyToTweet() callSUCCESS
+2021-05-28 23:44:32,666 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] Hiii
+2021-05-28 23:44:32,667 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] []
+2021-05-28 23:44:32,667 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] Hiii
+2021-05-28 23:44:32,667 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] [{"userId":"mini","replied":"mini tweey"}]
+2021-05-28 23:44:32,667 INFO com.tweetapp.service.impl.TweetsServiceImpl [http-nio-8090-exec-5] {"userId":"mini","replied":"mini tweey"}
+2021-05-28 23:44:32,670 INFO com.tweetapp.controller.TweetController [http-nio-8090-exec-5] Tweet Controllerin get All Tweets() callSUCCESS

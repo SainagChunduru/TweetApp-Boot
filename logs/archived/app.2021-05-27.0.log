@@ -1,0 +1,6 @@
+2021-05-27 01:47:35,054 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 7528 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-27 01:47:35,080 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-27 01:47:39,051 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.466 seconds (JVM running for 5.47)
+2021-05-27 18:40:39,287 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 11048 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-27 18:40:39,292 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-27 18:40:44,187 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.374 seconds (JVM running for 6.593)

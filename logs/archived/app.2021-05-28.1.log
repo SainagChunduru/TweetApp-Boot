@@ -1,0 +1,8 @@
+2021-05-29 00:04:08,885 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-10] Users Controllerin getAllUsers() callSUCCESS
+2021-05-29 00:34:03,658 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 2312 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-29 00:34:03,670 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-29 00:34:07,821 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.69 seconds (JVM running for 5.727)
+2021-05-29 00:34:16,891 INFO com.tweetapp.controller.UsersController [http-nio-8090-exec-3] Users Controllerin searchUsers() callSUCCESS
+2021-05-28 23:43:27,357 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 10872 (C:\Users\User\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\TweetApp-SpringBoot)
+2021-05-28 23:43:27,361 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-28 23:43:31,944 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 5.817 seconds (JVM running for 7.7)
